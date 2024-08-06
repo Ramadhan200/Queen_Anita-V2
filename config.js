@@ -1,4 +1,4 @@
-//#ENJOY
+I'm//#ENJOY
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
@@ -19,7 +19,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3AD
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
 global.devs = "https://t.me/deecee_x";
 global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "256788028745";
+global.owner = process.env.OWNER_NUMBER || "254700259918";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
@@ -27,7 +27,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://i.imgur.com/H4qeXwa.jpeg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/bf87cfeb213df6213de24.jpg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -45,14 +45,14 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "2",
-  HANDLERS: process.env.PREFIX || "#,!,@,*,?,¥",
+  HANDLERS: process.env.PREFIX || "'#','!','@','*','?','¥'",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`BOSSLAST-V2™`",
-  author: process.env.PACK_AUTHER || "BOSSLAST-V2",
-  packname: process.env.PACK_NAME || "B O S S L A S T",
-  botname: process.env.BOT_NAME || "BOSSLAST-V2",
-  ownername: process.env.OWNER_NAME || "BOSSLAST",
+  caption: process.env.CAPTION || "`JAYDEN-V2™`",
+  author: process.env.PACK_AUTHER || "JAYDEN-V2",
+  packname: process.env.PACK_NAME || "J A Y D E N",
+  botname: process.env.BOT_NAME || "JAYDEN-V2",
+  ownername: process.env.OWNER_NAME || "JAYDEN",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
